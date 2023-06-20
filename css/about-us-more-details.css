@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Montserrat:ital,wght@0,500;1,700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --color-dark-blue: #1E415D;
+  --color-light-green: #ADE18A;
+  --color-micky-mouse-green: #EDF98B;
+  --color-dark-green: #407056;
+  --color-alice-blue: aliceblue
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-blue {
+  /* ff 3.6+ */
+  background:-moz-linear-gradient(180deg, #1E415D 0%, #4B677D 44.58%, #FFFFFF 100%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(180deg, #1E415D 0%, #4B677D 44.58%, #FFFFFF 100%);
+
+  /* opera 11.10+ */
+  background:-o-linear-gradient(180deg, #1E415D 0%, #4B677D 44.58%, #FFFFFF 100%);
+
+  /* ie 10+ */
+  background:-ms-linear-gradient(180deg, #1E415D 0%, #4B677D 44.58%, #FFFFFF 100%);
+
+  /* global 94%+ browsers support */
+  background:linear-gradient(180deg, #1E415D 0%, #4B677D 44.58%, #FFFFFF 100%);
+  font-family: 'Poppins', sans-serif;
+}
+
+.white-container {
+  background-color: #D9D9D9;
+  box-shadow: 0px 37px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 99px;
+  margin: 0 5.3125rem 4.5625rem 5.3125rem;
+}
+.white-container-heading {
+  color: var(--color-dark-blue)
+}
+.white-container-text {
+  color: var(--color-dark-blue)
+}
+.no-display-one {
+  display: none;
+}
+.no-display-two {
+  display: none;
+}
+
+.blue-container {
+  background-color: var(--color-dark-blue);
+  box-shadow: 0px 37px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 99px;
+  margin: 0 5.3125rem;
+  color: #D9D9D9;
+}
+
+@media (max-width: 1200px) {
+  .white-container {
+    margin: 0 4rem 4.5625rem 4rem;
+  }
+  .blue-container {
+    margin: 0 4.375rem;
+  }
+}
+@media (max-width: 996px) {
+  .white-container {
+    margin: 0 3rem 4.5625rem 3rem;
+  }
+  .blue-container {
+    margin: 0 3.75rem;
+  }
+}
+@media (max-width: 768px) {
+  .white-container {
+    margin: 0 2rem 4rem 2rem;
+  }
+  .container-heading {
+    font-size: 1.5rem;
+  }
+  .container-text {
+    font-size: 1rem
+  }
+  .blue-container {
+    margin: 0 2rem;
+  }
+}
+@media (max-width: 576px) {
+  .white-container {
+    margin: 0 1rem 4rem 1rem;
+  }
+  .container-heading {
+    font-size: 1.25rem;
+  }
+  .container-text {
+    font-size: .875rem;
+  }
+  .blue-container {
+    margin: 0 1rem;
+  }
+}

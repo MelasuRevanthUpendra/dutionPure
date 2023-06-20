@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Montserrat:ital,wght@0,500;1,700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --color-dark-blue: #1E415D;
+  --color-light-green: #ADE18A;
+  --color-micky-mouse-green: #EDF98B;
+  --color-dark-green: #407056;
+  --color-alice-blue: aliceblue
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.mt-10 {
+  margin-top: 20px !important;
+}
+.bg-black {
+  background: #1E1E1E;
+}
+.container-one {
+  /* padding-top: 1.5625rem; */
+  gap: 6.5625rem;
+}
+
+.bg-about-us {
+  background: linear-gradient(252.44deg, #ADE18A 0%, rgba(30, 65, 93, 0) 100%);
+}
+
+.about-us-heading {
+  background: linear-gradient(268.49deg, #ADE18A 1.25%, #ADE18A 49.27%, rgba(173, 225, 138, 0) 97.3%);
+  padding: 8px 18px;
+  border-radius: 146px;
+  font-size: 1rem;
+  max-width: 115px;
+}
+
+.about-us-subHeading {
+  font-size: 3.3125rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about-us-text {
+  font-size: 1.25rem;
+}
+
+.about-us-button {
+  background: linear-gradient(264.76deg, #ADE18A 0%, rgba(173, 225, 138, 0) 95.14%);
+  padding: 8px 21px;
+  border-radius: 6px;
+  color: black;
+  text-decoration: none;
+}
+
+
+.myGrid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 1fr 1fr;
+}
+.myGrid .image-2 {
+  align-self: flex-end;
+}
+.myGrid .image-3 {
+  justify-self: flex-end;
+}
+
+.br-15 {
+  border-radius: 15px;
+}
+
+.image-1 {
+  width: 191px;
+  height: 241px;
+}
+.image-2 {
+  width: 168px;
+  height: 204px;
+}
+.image-3 {
+  width: 155px;
+  height: 194px;
+}
+.image-4 {
+  width: 209px;
+  height: 254px;
+}
+
+@media (max-width: 1200px) {
+  .about-us-subHeading {
+    font-size: 2.5rem;
+  }
+  .about-us-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 996px) {
+  .myGrid {
+    display: none;
+  }
+  .container-one {
+    padding-top: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-one {
+    padding-top: 5.5rem;
+  }
+}
+
+@media (max-width: 568px) {
+  .about-us-subHeading {
+    font-size: 1.5rem;
+  }
+  .about-us-text {
+    font-size: 1rem;
+  }
+}

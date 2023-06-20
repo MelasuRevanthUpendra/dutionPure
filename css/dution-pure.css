@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-gradient-color-2 {
+  background: linear-gradient(to bottom, 
+    var(--color-light-green) 00%, 
+    var(--color-dark-green) 80%, 
+    aliceblue 50%);
+}
+
+.more-one {
+  display: none;
+}
